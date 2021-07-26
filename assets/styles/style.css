@@ -4,7 +4,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-h2, h3{
+h2, h3 {
     color: #00A2C6;
 }
 
@@ -18,8 +18,19 @@ nav a:hover {
     font-weight: bold;
 }
 
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .profile header {
     text-align: center;
+}
+
+.profile img {
+    width: 200px;
 }
 
 footer {
